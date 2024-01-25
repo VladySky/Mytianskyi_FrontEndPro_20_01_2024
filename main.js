@@ -7,5 +7,6 @@ console.log(y);
 let z = +prompt(`Your month of birthday?`);
 console.log(z);
 
+let summery = (x+y+z) / 3;
 
-
+alert(`Your lucky number is ${summery}!`);
