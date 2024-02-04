@@ -21,4 +21,7 @@ switch (sign) {
         console.log(`Wrong symbol`)
 }
 
-alert(`${number1} ${sign} ${number2} = `)
+let total = number1 + sign + number2
+console.log(total)
+
+alert(`${number1} ${sign} ${number2} = ${total}`)
